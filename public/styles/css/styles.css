@@ -18,7 +18,7 @@ main {
 }
 
 .card {
-  width: 360px;
+  width: 420px;
 }
 .card .card-image {
   width: 100%;
@@ -81,6 +81,16 @@ main {
 
 footer {
   color: #7280a7;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url(../../images/pattern-background-mobile.svg);
+  }
+
+  .card {
+    width: 350px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
