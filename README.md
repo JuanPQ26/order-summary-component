@@ -31,7 +31,7 @@ Users should be able to:
 
 - Solution URL: [https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-2VVS1t_uO/solutions](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-2VVS1t_uO/solutions)
 
-**Note: - Live Site URL: [https://juanpq26.github.io/order-summary-component/](https://juanpq26.github.io/order-summary-component/)**
+Live Site URL: [https://juanpq26.github.io/order-summary-component/](https://juanpq26.github.io/order-summary-component/)
 
 ## My process
 
