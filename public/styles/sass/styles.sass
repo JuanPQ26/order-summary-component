@@ -6,6 +6,7 @@ $bright-blue-hover-color: hsl(255, 75%, 52%)
 $desaturated-blue-color: hsl(224, 23%, 55%)
 $desaturated-blue-hover-color: hsl(224, 23%, 40%)
 
+$pale-blue-color: hsl(225, 100%, 94%)
 $very-pale-blue-color: hsl(225, 100%, 98%)
 $dark-blue-color: hsl(223, 47%, 23%)
 
@@ -18,8 +19,10 @@ $bright-blue-hover-shadow-color: rgba(87, 41, 224, 0.25)
 
 body
   background-image: url(../../images/pattern-background-desktop.svg)
-  background-size: 100% 100%
-  background-size: cover
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: top
+  background-color: $pale-blue-color
 
 main
   width: 100vw
