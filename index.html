@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Order summary card</title>
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Vue CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="public/styles/css/styles.css">
+</head>
+
+<body>
+
+  <main class="flex justify-center items-center">
+    <div id="app">
+      <payment-card-component :text="cardText" :title="cardTitle">
+      </payment-card-component>
+      <app-footer-component author="Juan Quintero" link="https://www.frontendmentor.io/profile/JuanPQ26">
+      </app-footer-component>
+    </div>
+  </main>
+  <!-- Custom scripts -->
+  <script src="public/javascript/main.js"></script>
+</body>
+
+</html>

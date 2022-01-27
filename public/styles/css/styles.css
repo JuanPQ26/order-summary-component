@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url(../../images/pattern-background-desktop.svg);
+  background-size: 100% 100%;
+  background-size: cover;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  width: 360px;
+}
+.card .card-image {
+  width: 100%;
+}
+.card .card-title {
+  color: #1f2f56;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+.card .card-text {
+  color: #7280a7;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.card .card-action {
+  background-color: #3829e0;
+  box-shadow: 5px 5px 20px rgba(56, 41, 224, 0.4);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+.card .card-action:hover {
+  background-color: #5729e0;
+  box-shadow: 10px 10px 25px rgba(87, 41, 224, 0.25);
+}
+.card .card-action-secondary {
+  color: #7280a7;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+.card .card-action-secondary:hover {
+  color: #4f5b7d;
+}
+
+.plan-container {
+  background-color: #f5f7ff;
+}
+.plan-container .plan-title {
+  color: #1f2f56;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+}
+.plan-container .plan-price {
+  color: #7280a7;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+.plan-container .plan-change {
+  color: #3829e0;
+  font-size: 13px;
+}
+.plan-container .plan-change:hover {
+  color: #5729e0;
+}
+
+footer {
+  color: #7280a7;
+}
+
+/*# sourceMappingURL=styles.css.map */

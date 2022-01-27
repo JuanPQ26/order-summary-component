@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap')
+
+$bright-blue-color: hsl(245, 75%, 52%)
+$bright-blue-hover-color: hsl(255, 75%, 52%)
+
+$desaturated-blue-color: hsl(224, 23%, 55%)
+$desaturated-blue-hover-color: hsl(224, 23%, 40%)
+
+$very-pale-blue-color: hsl(225, 100%, 98%)
+$dark-blue-color: hsl(223, 47%, 23%)
+
+$bright-blue-shadow-color: rgba(56, 41, 224, 0.4)
+$bright-blue-hover-shadow-color: rgba(87, 41, 224, 0.25)
+
+*
+  padding: 0px
+  margin: 0px
+
+body
+  background-image: url(../../images/pattern-background-desktop.svg)
+  background-size: 100% 100%
+  background-size: cover
+
+main
+  width: 100vw
+  height: 100vh
+
+.card
+  width: 360px
+
+  .card-image 
+    width: 100%
+
+  .card-title
+    color: $dark-blue-color
+    font-family: 'Red Hat Display', sans-serif
+    font-size: 25px
+    font-weight: 900
+  
+  .card-text
+    color: $desaturated-blue-color
+    font-family: 'Red Hat Display', sans-serif
+    font-size: 16px
+    font-weight: 500
+  
+  .card-action
+    background-color: $bright-blue-color
+    box-shadow: 5px 5px 20px $bright-blue-shadow-color
+    font-family: 'Red Hat Display', sans-serif
+    font-weight: 700
+    font-size: 13px
+
+  .card-action:hover
+    background-color: $bright-blue-hover-color
+    box-shadow: 10px 10px 25px $bright-blue-hover-shadow-color
+  
+  .card-action-secondary
+    color: $desaturated-blue-color
+    font-family: 'Red Hat Display', sans-serif
+    font-weight: 700
+    font-size: 13px
+  .card-action-secondary:hover
+    color: $desaturated-blue-hover-color
+  
+.plan-container
+  background-color: $very-pale-blue-color
+
+  .plan-title
+    color: $dark-blue-color
+    font-family: 'Red Hat Display', sans-serif
+    font-size: 13px
+    font-weight: 900
+
+  .plan-price
+    color: $desaturated-blue-color
+    font-family: 'Red Hat Display', sans-serif
+    font-size: 13px
+    font-weight: 500
+  
+  .plan-change
+    color: $bright-blue-color
+    font-size: 13px
+  .plan-change:hover
+    color: $bright-blue-hover-color
+
+footer
+  color: $desaturated-blue-color
